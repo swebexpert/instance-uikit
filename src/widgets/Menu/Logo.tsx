@@ -26,7 +26,7 @@ const StyledLink = styled(Link)`
     width: 156px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
-      display: block;
+      display: flex;
     }
   }
 `;

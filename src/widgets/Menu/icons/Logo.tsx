@@ -14,7 +14,7 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
       <Svg viewBox="0 0 26 26" width={26} marginRight="5px">
         <image width={26} height={26} href={isDark ? 'images/LogoTextNewDark.png' : 'images/LogoTextNewWhite.png'}/>
       </Svg>
-      <div style={{color:textColor, alignSelf:"center"}}>InstanceSwap</div>
+      <div style={{color:textColor, alignSelf:"center"}}>OwlSwap</div>
     </div>
   );
 };

@@ -414,7 +414,7 @@ var Icon$v = function (props) {
 };
 
 var Icon$w = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 26 26" }, props),
         React.createElement("image", { width: 26, height: 26, href: 'images/LogoTextNewDark.png' })));
 };
 
